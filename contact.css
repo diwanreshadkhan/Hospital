@@ -1,0 +1,510 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fd0707;
+    overflow-x: hidden;
+}
+
+/* Apply Montserrat to headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* Bold weight */
+    margin: 0 0 1rem 0;
+}
+
+
+/* Additional styles as needed */
+/* General Styles */
+body {
+    background-color: #FFFFFF;
+    /* Overall Background Color */
+    color: #4A4A4A;
+    /* Body Text Color */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu Styles */
+nav {
+    /* position:relative; */
+    background-color: #F5F5F5;
+    /* Menu Background Color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 2;
+    opacity: 2;
+    box-shadow: #333333;
+
+}
+
+nav a {
+    color: #333333;
+    /* Menu Text Color */
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1.2rem;
+
+}
+
+nav a:hover {
+    border-bottom: 3px solid;
+    border-color: #007BFF;
+    color: #007BFF;
+
+}
+.slide{
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+/* Headings Styles */
+h1 {
+    color: #2f4f4f;
+    /* Heading : Color; */
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+}
+
+h2 {
+    color: #333333;
+    /* Heading 2 Color */
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+h3 {
+    color: #4A4A4A;
+    /* Heading 3 Color */
+    font-size: 1.75rem;
+    margin: 0 0 1rem 0;
+}
+
+h4 {
+    color: #666666;
+    /* Heading 4 Color */
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+}
+
+h5 {
+    color: #808080;
+    /* Heading 5 Color */
+    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+}
+
+h6 {
+    color: #999999;
+    /* Heading 6 Color */
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Button Styles */
+button {
+    background-color: #191070;
+    /* Button Background Color */
+    color: #FAF9F6;
+    /* Button Text Color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker shade of the primary color for hover effect */
+}
+
+#msign {
+    width: 40px;
+    height: 40px;
+    /* background-color: #0056b3; */
+    visibility: hidden;
+    position: absolute;
+    /* display: none; */
+}
+
+.top {
+    width: 100px;
+    height: 100px;
+    background-color: #f4511e;
+    bottom: 30px;
+    right: 30px;
+    font-size: 2rem;
+    position: fixed;
+    z-index: 3;
+    display: none;
+    border-radius: 50%;
+}
+
+.h2b {
+    width: 100%;
+    background-color: #008080;
+    text-align: center;
+}
+
+.span {
+    color: #fd0707;
+}
+
+.logo {
+    /* background-color: #f10d70; */
+    /* background-image: url("1.jpg"); */
+    width: 150px;
+    height: 60px;
+    font-size: 2rem;
+    color: #fd0707;
+    padding: 10px;
+    background-size: cover;
+}
+
+.img {
+    background-image: url(https://img.freepik.com/premium-photo/professionalism-trust-two-doctors-shake-hands-hospital-setting-generative-ai_561855-42537.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.img p {
+    font-size: 1rem;
+}
+
+#con1 {
+    width: 80%;
+    height: 80%;
+    padding: 6%;
+}
+
+#con1 h1 span {
+    border-bottom: 3px solid #2f4f4f;
+}
+
+.con2 {
+    text-align: center;
+}
+
+#case {
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+}
+
+.general {
+    gap: 5px;
+
+}
+
+.general p {
+    padding: 0px 20px;
+}
+
+#app2 {
+    padding: 20px;
+}
+
+#fee2 {
+    /* display: flex; */
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.feedback button {
+    margin: 0px 20px 10px 20px;
+}
+
+#f2 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333333;
+    width: 100%;
+    height: 300px;
+    /* padding: 20px; */
+}
+
+.footer h4 {
+    color: #FFFFFF;
+}
+
+.footer1 {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer2 {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer3 {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 780px) {
+    * {
+        overflow-x: visible;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .header {
+        width: 100px;
+        height: auto;
+    }
+
+    nav {
+        /* position:relative; */
+        background-color: #F5F5F5;
+        /* Menu Background Color */
+        /* padding: 10px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 8%;
+        opacity: 2;
+        box-shadow: #333333;
+
+    }
+
+    nav a {
+
+        visibility: hidden;
+        padding: 0;
+    }
+
+
+    .logo {
+
+        background-image: url("1.jpg");
+        width: 150px;
+        height: auto;
+        font-size: 2rem;
+        /* color: #fd0707; */
+        padding: 10px;
+        background-size: cover;
+    }
+
+    #msign {
+
+        width: 40px;
+        height: 40px;
+        visibility: visible;
+        position: absolute;
+        box-sizing: border-box;
+        margin-right: 1px;
+        right: 50px;
+        padding: 5px;
+
+
+
+    }
+
+    .top{
+        width: 80px;
+        height: 80px;
+        background-color: #f4511e;
+        bottom: 20px;
+        left: 20px;
+        text-align: center;
+        font-size: 1.3rem;
+        position: fixed;
+        z-index: 3;
+        display: none;
+        border-radius:50% ;
+    }
+    
+    .slide {
+        height: 110vh;
+        width: 35vw;
+        background-color: white;
+        z-index: 7;
+        top:0vh;
+        right: -35vw;
+        padding: 0;
+        position:absolute; 
+        display: block;
+        transition: all 0.5s;
+    }
+    .slide-a{
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .slide a{
+        margin-bottom: 5px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #d50808;
+        /* background-color: #007BFF; */
+        display: block;
+        visibility: visible;
+        font-size: 1.2rem;
+        /* top: */
+    }
+    .slide a:hover{
+        background-color: #FFFFFF;
+        color: #007BFF;
+    }
+    .cross{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: #007BFF;
+        background-color: transparent;
+        
+    }
+    .cross:hover{
+        background-color: #e2dbdb;
+        border:1px solid #007BFF;
+    }
+
+    .h2b {
+        width: 100%;
+        background-color: #008080;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .main {
+        width: 100%;
+        height: 700px;
+    }
+
+    .img {
+        background-image: url(https://img.freepik.com/premium-photo/professionalism-trust-two-doctors-shake-hands-hospital-setting-generative-ai_561855-42537.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+
+    }
+
+    .img p {
+        font-size: 1rem;
+    }
+
+
+    #f2 {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer {
+        display: block;
+        /* justify-content: space-evenly; */
+        /* align-items: center; */
+        background-color: #333333;
+        width: 100%;
+        height: 670px;
+        padding: 9px;
+    }
+
+    .footer h4 {
+        color: #FFFFFF;
+    }
+
+    .footer1 {
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .footer2 {
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .footer3 {
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+
+}
