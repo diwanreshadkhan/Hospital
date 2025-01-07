@@ -1,0 +1,550 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Apply Montserrat to headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* Bold weight */
+    margin: 0 0 1rem 0;
+}
+
+
+/* Additional styles as needed */
+/* General Styles */
+body {
+    background-color: #FFFFFF;
+    /* Overall Background Color */
+    color: #4A4A4A;
+    /* Body Text Color */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu Styles */
+nav {
+    /* position:relative; */
+    background-color: #F5F5F5;
+    /* Menu Background Color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+    box-shadow: #333333;
+    z-index: 2;
+}
+
+nav a {
+    color: #333333;
+    /* Menu Text Color */
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1.2rem;
+
+}
+
+nav a:hover {
+    border-bottom: 3px solid;
+    border-color: #007BFF;
+    color: #007BFF;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.login {
+    width: 7vw;
+
+}
+
+/* Headings Styles */
+h1 {
+    color: #1A1A1A;
+    /* Heading 1 Color */
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+}
+
+h2 {
+    color: #333333;
+    /* Heading 2 Color */
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+h3 {
+    color: #4A4A4A;
+    /* Heading 3 Color */
+    font-size: 1.75rem;
+    margin: 0 0 1rem 0;
+}
+
+h4 {
+    color: #666666;
+    /* Heading 4 Color */
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+}
+
+h5 {
+    color: #808080;
+    /* Heading 5 Color */
+    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+}
+
+h6 {
+    color: #999999;
+    /* Heading 6 Color */
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Button Styles */
+button {
+    background-color: #007BFF;
+    /* Button Background Color */
+    color: #FFFFFF;
+    /* Button Text Color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker shade of the primary color for hover effect */
+}
+
+.logo {
+    /* background-color: #f10d70; */
+    /* background-image: url("1.jpg"); */
+    width: 150px;
+    height: 60px;
+    font-size: 2rem;
+    color: #fd0707;
+    padding: 10px;
+    background-size: cover;
+}
+
+.emergency {
+    width: 200px;
+    height: 30px;
+    position: fixed;
+    right: 0px;
+    top: 74px;
+    background-color: transparent;
+    color: red;
+    z-index: 3;
+}
+
+#msign {
+    width: 40px;
+    height: 40px;
+    /* background-color: #0056b3; */
+    visibility: hidden;
+    position: absolute;
+    /* display: none; */
+}
+
+.slide {
+    display: none;
+}
+
+.img {
+    background-image: url(https://img.freepik.com/premium-photo/professionalism-trust-two-doctors-shake-hands-hospital-setting-generative-ai_561855-42537.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 70%; */
+
+}
+
+.login2 {
+    width: 40%;
+    height: 90%;
+    /* opacity: 50%; */
+    /* border: 4px solid red; */
+    padding: 40px;
+    margin: 40%;
+    /* background-color: #F5F5F5; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    /* text-align: center; */
+}
+
+.login2 input {
+    font-size: 1.3rem;
+}
+
+.login2 button {
+    width: 255px;
+}
+
+.login2 i {
+    gap: 60px;
+}
+
+.hero {
+    width: 100%;
+
+}
+
+.ii {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.signup {
+    width: 100px;
+    height: 30px;
+    position: fixed;
+    right: 10px;
+    top: 70px;
+    background-color: transparent;
+    color: red;
+    z-index: 3;
+    /* display: none; */
+
+}
+
+.signup:hover {
+    background-color: transparent;
+}
+
+.form {
+    margin: 20vh 20vw;
+    width: 60vw;
+    height: 70vh;
+    background-color: #e9e6e6;
+    border: 3px solid red;
+    position: absolute;
+    z-index: 10;
+    /* text-align: center; */
+    box-shadow: 0 40px 20px 10 rgba(240, 2, 2, 0.3), 0 20px 20px 0 rgba(237, 7, 7, 0.3);
+    display: none;
+    padding: 10px;
+}
+
+.cross1 {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #007BFF;
+    background-color: transparent;
+
+}
+
+.cross1:hover {
+    background-color: #e2dbdb;
+    border: 1px solid #007BFF;
+}
+
+.cancel {
+    width: 150px;
+    background-color: red;
+}
+
+.Sign-up {
+    width: 150px;
+    background-color: green;
+}
+
+.new {
+    width: 30px;
+    /* background-color: #fd0707; */
+}
+
+footer {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333333;
+    width: 100%;
+    height: 300px;
+    /* padding: 20px; */
+}
+
+.footer h4 {
+    color: #FFFFFF;
+}
+
+.footer1 {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer2 {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer3 {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 780px) {
+    * {
+        overflow-x: visible;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .header {
+        width: 100px;
+        height: auto;
+    }
+
+    nav {
+        /* position:relative; */
+        background-color: #F5F5F5;
+        /* Menu Background Color */
+        /* padding: 10px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 8%;
+        opacity: 2;
+        box-shadow: #333333;
+
+    }
+
+    nav a {
+
+        visibility: hidden;
+        padding: 0;
+    }
+
+
+    .logo {
+
+        background-image: url("1.jpg");
+        width: 150px;
+        height: auto;
+        font-size: 2rem;
+        /* color: #fd0707; */
+        padding: 10px;
+        background-size: cover;
+    }
+
+
+    #msign {
+
+        width: 40px;
+        height: 40px;
+        visibility: visible;
+        position: absolute;
+        box-sizing: border-box;
+        margin-right: 1px;
+        right: 50px;
+        padding: 5px;
+    }
+    .signup {
+        width: 100px;
+        height: 30px;
+        position: fixed;
+        right: 10px;
+        top: 300px;
+        background-color: transparent;
+        color: red;
+        z-index: 3;
+        /* display: none; */
+    
+    }
+    
+    .signup:hover {
+        background-color: transparent;
+    }
+
+    .slide {
+        height: 110vh;
+        width: 35vw;
+        background-color: white;
+        z-index: 7;
+        top: 0vh;
+        right: -35vw;
+        padding: 0;
+        position: absolute;
+        display: block;
+        transition: all 0.5s;
+    }
+
+    .slide-a {
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    .slide a {
+        margin-bottom: 5px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #007BFF;
+        /* background-color: #007BFF; */
+        display: block;
+        visibility: visible;
+        font-size: 1.2rem;
+        /* top: */
+    }
+
+    .slide a:hover {
+        background-color: #007BFF;
+        color: #e3e5e8;
+    }
+
+    .cross {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: #007BFF;
+        background-color: transparent;
+
+    }
+
+    .cross:hover {
+        background-color: #e2dbdb;
+        border: 1px solid #007BFF;
+    }
+
+    .emergency {
+        visibility: hidden;
+    }
+
+    .img {
+        background-image: url(https://img.freepik.com/premium-photo/professionalism-trust-two-doctors-shake-hands-hospital-setting-generative-ai_561855-42537.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* opacity: 70%; */
+        padding: 10px;
+
+    }
+
+    .login2 {
+        width: 90%;
+        height: 70%;
+        /* opacity: 50%; */
+        /* border: 4px solid red; */
+        padding: 10px;
+        margin: 0%;
+        /* background-color: #F5F5F5; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+        /* text-align: center; */
+    }
+
+    .login2 input {
+        font-size: 1.3rem;
+        /* width: 70%; */
+    }
+
+    .login2 button {
+        width: 75%;
+    }
+
+    .login2 i {
+        gap: 60px;
+    }
+
+    .hero {
+        width: 100%;
+        height: 600px;
+
+    }
+
+    .footer {
+        display: block;
+        /* justify-content: space-evenly; */
+        /* align-items: center; */
+        background-color: #333333;
+        width: 100%;
+        height: 670px;
+        padding: 9px;
+    }
+
+    .footer h4 {
+        color: #FFFFFF;
+    }
+
+    .footer1 {
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .footer2 {
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .footer3 {
+        text-align: left;
+        color: #FFFFFF;
+    }
+}
